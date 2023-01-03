@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url("bday.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.first{
+    background-color: brown;
+    text-align: center;
+    margin-top: 100px;
+}
+.second{
+    background-color: rgba(0, 0, 255, 0.646);
+    margin: 60px auto 0;
+    text-align: center;
+    position: absolute;
+    top: 30%; right: 30%; left: 30%;
+    padding: 100px;
+    border-radius: 15%;
+    border: 10px ridge rgba(255, 87, 51, 0.646) ;
+}
+div.second>p{
+    font-size: 1.5em;
+}
+p{
+    animation:both;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+    animation-duration: 2s;
+    animation-direction: unset;
+}
